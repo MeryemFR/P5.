@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import "./styles/app.scss";
-import { Routes, Route, Navigate, HashRouter } from 'react-router-dom';
-import Home from './pages/home/Home';
-import About from './pages/about/About';
-import FichLogement from "./pages/logement/FichLogement";
-import NoPage from './pages/error/NoPages';
+import { Routes, Route, Navigate, HashRouter } from "react-router-dom";
+import About from "./pages/about/About";
+import Home from "./pages/home/Home";
+import FichLogement from "./pages/logement/FichLogment";
+import NoPage from "./pages/error/NoPage";
 
 const App = () => {
   return (

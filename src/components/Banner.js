@@ -5,11 +5,12 @@ function Banniere({ image, texte }) {
   return (
     <div className="banner">
       <img className="banner__img" src={image} alt="Bannière" />
-       {/*  Couche sombre pour améliorer la lisibilité du texte */ }
-      <div className="banner__sombre"></div>                           
-      <span className="banner__txt">{texte}</span>
+      <span className="banner__txtA">{texte}</span>
     </div>
   );
 }
 
 export default Banniere;
+
+// Le composant Banner est un outil efficace pour communiquer 
+// visuellement des informations importantes et pour améliorer l'esthétique de ton application.
