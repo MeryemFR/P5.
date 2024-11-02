@@ -13,17 +13,18 @@
     height: 100%;
     object-fit: cover;
     width: 100%;
+    filter: brightness(0.5);
   }
-  &__sombre {
-    background-color: $background-color;
-    width: 100%;
-    height: 100%;
-    border-radius: 25px;
-    left: 0;
-    opacity: 0.3;
-    position: absolute;
-    top: 0;
-  }
+  // &__sombre {
+  //   background-color: $background-color;
+  //   width: 100%;
+  //   height: 100%;
+  //   border-radius: 25px;
+  //   left: 0;
+  //   opacity: 0.3;
+  //   position: absolute;
+  //   top: 0;
+  // }
   &__txt {
     position: absolute;
     top: 28.04%;

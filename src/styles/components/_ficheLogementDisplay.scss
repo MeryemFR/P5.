@@ -21,6 +21,7 @@
       }
       .endroit-logement {
         @include font(14px, 500);
+        color: #000;
       }
     }
     &__tags {

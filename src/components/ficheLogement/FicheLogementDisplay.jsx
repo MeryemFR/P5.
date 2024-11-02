@@ -2,7 +2,7 @@
 import { useParams, Navigate } from "react-router-dom";
 import DataFichLogement from "../../datas/logement.json";
 import Tag from "./Tag";
-import Collapse from "../collapse/Collapse";
+import Collapse from "../Collapse";
 import Carrousel from "./Carrousel";
 import Rate from "./Rate";
 import Host from "./Host";

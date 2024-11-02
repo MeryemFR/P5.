@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logements from "../../datas/logement.json";
 import Card from "./Card";
+import logements from "../datas/logement.json";
 
 const Gallery = () => {
   return (
@@ -10,7 +10,7 @@ const Gallery = () => {
         return (
           <article key={logement.id}>
             <Link to={`/logement/${logement.id}`}>
-              <Card image={logement.cover} title={logement.title} />
+              <Card image={logement.cover} title={logement.title}/>
             </Link>
           </article>
         );

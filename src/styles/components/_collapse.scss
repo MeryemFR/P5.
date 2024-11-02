@@ -11,6 +11,16 @@
       width: 80%;
     }
 
+    .collapse__dropdown__content p {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      color: #000;
+      line-height: 142.6%;
+      color: #000;
+      margin: 0 auto;
+      padding: 0.8em;
+  }
     &__title {
       @extend %flex-between;
       padding: 0.5em 1em;
@@ -50,6 +60,7 @@
         color: $primary-color;
         margin: 0 auto;
         padding: 0.8em;
+        color: #000;
       }
     }
   }

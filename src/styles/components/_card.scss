@@ -20,7 +20,7 @@
   &_title {
     position: absolute;
     bottom: 0;
-    @include font(18px, 500);
+    @include font(18px, 700);
     margin: 15px 20px;
     color: $tertiary-color;
     box-sizing: inherit;
