@@ -1,14 +1,14 @@
 import React from "react";
-import FicheLogementDisplay from "../../components/ficheLogement/FicheLogementDisplay";
+import AccommodationDisplay from "../../components/accommodations/AccommondationDisplay";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-const FichLogment = () => {
+const AccommodationSheet = () => {
   return (
     <div className="logement">
       <Header />
       <main>
-        <FicheLogementDisplay />
+        <AccommodationDisplay />
       </main>
 
       <Footer />
@@ -16,4 +16,4 @@ const FichLogment = () => {
   );
 };
 
-export default FichLogment;
+export default AccommodationSheet;
