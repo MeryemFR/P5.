@@ -12,6 +12,7 @@ function Banner({ image, texte }) {
 
 export default Banner;
 
+
 // function Banniere({ image, texte }) {
 //   return (
 //     <div className="banner">
