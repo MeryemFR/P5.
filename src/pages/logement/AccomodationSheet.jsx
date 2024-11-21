@@ -1,5 +1,5 @@
 import React from "react";
-import AccommodationDisplay from "../../components/accommodations/AccommondationDisplay";
+import AccommodationDisplay from "../../components/accommodations/AccommodationDisplay";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
